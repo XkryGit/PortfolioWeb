@@ -36,7 +36,7 @@ export const BioComponent: React.FC = () => {
           <button
             onClick={() =>
               handleClickExt(
-                "https://drive.google.com/file/d/1NX1ORpcqcUauaTDhg2b-QQbUNaOP8Ihr/view?usp=sharing"
+                "https://xkrygit.github.io/PortfolioWeb/CurriculumAdolfo2023.pdf"
               )
             }
           >
