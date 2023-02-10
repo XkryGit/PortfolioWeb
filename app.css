@@ -15,6 +15,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0%;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -59,9 +60,8 @@ div#header ul {
     padding: 0vh;
     background-color: #33b0cc;
     opacity: 95%;
-    border-radius: px;
     position: absolute;
-    top: 85vh;
+    bottom: -75vh;
     border: solid 1.8px #f4f9f9;
   }
 }
@@ -138,13 +138,24 @@ div#header ul#navbar {
   justify-content: flex-end;
   list-style: none;
 }
+@media screen and (max-width: 850px) {
+  div#header ul#navbar {
+    margin-left: 35px;
+  }
+}
 div#header span#codeBy {
   position: fixed;
   font-size: 0.6rem;
   transform-origin: bottom left;
   transform: rotate(-90deg);
-  bottom: 50px;
+  top: 90vh;
   left: 35px;
+}
+@media screen and (max-width: 850px) {
+  div#header span#codeBy {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 div#sign {
@@ -156,6 +167,11 @@ div#sign {
   font-family: "Roboto Mono", monospace;
   height: 100%;
   width: 100vw;
+}
+@media screen and (max-width: 850px) {
+  div#sign {
+    width: 110vw;
+  }
 }
 div#sign img#logo {
   width: 244px;
@@ -187,7 +203,7 @@ div#sign div#links {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links {
-    margin-bottom: 110px;
+    margin-bottom: 200px;
   }
 }
 div#sign div#links img {
@@ -265,6 +281,7 @@ div#home h1#title {
 }
 @media screen and (max-width: 850px) {
   div#home h1#title {
+    margin-left: 35px;
     margin-right: 0;
     font-size: 1.5rem;
     justify-content: center;
@@ -288,7 +305,7 @@ div#home img#sub {
 @media screen and (max-width: 850px) {
   div#home img#sub {
     margin-bottom: -28px;
-    margin-left: 45px;
+    margin-left: 80px;
     width: 225px;
     height: 8px;
   }
@@ -310,7 +327,7 @@ div#home h3#subtitle {
     font-size: 0.8rem;
     width: 90%;
     margin: 1vh;
-    margin-left: auto;
+    margin-left: 35px;
   }
 }
 div#home video#illus {
@@ -325,9 +342,9 @@ div#home video#illus {
 }
 @media screen and (max-width: 850px) {
   div#home video#illus {
-    width: 300px;
+    width: 330px;
     display: flex;
-    margin-left: 0;
+    margin-left: 35px;
   }
 }
 
