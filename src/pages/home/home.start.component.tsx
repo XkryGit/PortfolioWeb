@@ -21,6 +21,8 @@ export const HomeStartComponent: React.FC = () => {
           id="illus"
           onMouseOver={playMovie}
           preload="auto"
+          autoPlay
+          muted
           src={adolfobrillo}
         ></video>
       </div>

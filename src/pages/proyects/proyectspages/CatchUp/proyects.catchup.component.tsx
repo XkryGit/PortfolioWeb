@@ -48,14 +48,14 @@ export const ProyectCatchupComponent: React.FC = () => {
         </div>
         <div id="imagescolumn">
           <div id="columna">
-            <video id="column" autoPlay loop src={catch2video} />
+            <video id="column" autoPlay mutedº loop src={catch2video} />
             <img id="column" src={catch3} />
             <img id="column" src={catch4} />
           </div>
           <div id="columnb">
             <img id="column" src={catch5} />
             <img id="column" src={catch6} />
-            <video id="column" autoPlay loop src={catch7video} />
+            <video id="column" autoPlay muted loop src={catch7video} />
           </div>
         </div>
         <div id="banner">

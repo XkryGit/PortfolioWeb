@@ -15,6 +15,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0%;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -59,15 +60,15 @@ div#header ul {
     padding: 0vh;
     background-color: #33b0cc;
     opacity: 95%;
-    border-radius: px;
     position: absolute;
-    top: 85vh;
+    bottom: -85vh;
     border: solid 1.8px #f4f9f9;
+    border-radius: 6px;
   }
 }
 @media screen and (max-width: 850px) {
   div#header a {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 }
 div#header a:link {
@@ -138,13 +139,24 @@ div#header ul#navbar {
   justify-content: flex-end;
   list-style: none;
 }
+@media screen and (max-width: 850px) {
+  div#header ul#navbar {
+    margin-left: 35px;
+  }
+}
 div#header span#codeBy {
   position: fixed;
   font-size: 0.6rem;
   transform-origin: bottom left;
   transform: rotate(-90deg);
-  bottom: 50px;
+  top: 90vh;
   left: 35px;
+}
+@media screen and (max-width: 850px) {
+  div#header span#codeBy {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 div#sign {
@@ -156,6 +168,11 @@ div#sign {
   font-family: "Roboto Mono", monospace;
   height: 100%;
   width: 100vw;
+}
+@media screen and (max-width: 850px) {
+  div#sign {
+    width: 110vw;
+  }
 }
 div#sign img#logo {
   width: 244px;
@@ -187,7 +204,7 @@ div#sign div#links {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links {
-    margin-bottom: 110px;
+    margin-bottom: 300px;
   }
 }
 div#sign div#links img {
@@ -197,8 +214,8 @@ div#sign div#links img {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links img {
-    width: 7vw;
-    height: 7vw;
+    width: 10vw;
+    height: 10vw;
     padding-bottom: 0;
   }
 }
@@ -209,8 +226,8 @@ div#sign div#links img:hover {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links img:hover {
-    width: 8vw;
-    height: 8vw;
+    width: 12vw;
+    height: 12vw;
   }
 }
 
@@ -265,6 +282,7 @@ div#home h1#title {
 }
 @media screen and (max-width: 850px) {
   div#home h1#title {
+    margin-left: 35px;
     margin-right: 0;
     font-size: 1.5rem;
     justify-content: center;
@@ -288,7 +306,7 @@ div#home img#sub {
 @media screen and (max-width: 850px) {
   div#home img#sub {
     margin-bottom: -28px;
-    margin-left: 45px;
+    margin-left: 80px;
     width: 225px;
     height: 8px;
   }
@@ -310,7 +328,7 @@ div#home h3#subtitle {
     font-size: 0.8rem;
     width: 90%;
     margin: 1vh;
-    margin-left: auto;
+    margin-left: 35px;
   }
 }
 div#home video#illus {
@@ -325,9 +343,9 @@ div#home video#illus {
 }
 @media screen and (max-width: 850px) {
   div#home video#illus {
-    width: 300px;
+    width: 330px;
     display: flex;
-    margin-left: 0;
+    margin-left: 35px;
   }
 }
 
@@ -424,8 +442,7 @@ div#present img#habilidadesfondo {
 }
 @media screen and (max-width: 850px) {
   div#present img#habilidadesfondo {
-    margin-left: -10px;
-    width: 100vw;
+    width: 110vw;
     height: 60vh;
   }
 }
@@ -526,6 +543,7 @@ div#proyects ul {
 @media screen and (max-width: 850px) {
   div#proyects ul {
     flex-direction: column;
+    margin-left: -50px;
   }
 }
 div#proyects img {
@@ -533,7 +551,7 @@ div#proyects img {
 }
 @media screen and (max-width: 850px) {
   div#proyects img {
-    width: 70vw;
+    width: 90vw;
   }
 }
 div#proyects img#hover {
@@ -658,8 +676,8 @@ div#about {
   div#about {
     flex-direction: column-reverse;
     margin: 0;
-    margin-top: 100px;
-    height: 140vh;
+    margin-top: 0px;
+    height: 110vh;
   }
 }
 div#about div {
@@ -845,7 +863,7 @@ div#contactpage button {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage button {
-    margin-left: 0px;
+    margin-left: 30px;
   }
 }
 div#contactpage button:hover {
@@ -860,7 +878,7 @@ div#contactpage button#form {
 @media screen and (max-width: 1300px) {
   div#contactpage button#form {
     margin-top: 1rem;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-bottom: 70px;
   }
 }
@@ -888,8 +906,9 @@ div#contactpage div#contactform {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage div#contactform {
-    width: 350px;
-    margin-right: 100px;
+    width: 300px;
+    margin-left: -60px;
+    margin-right: 0px;
     margin-bottom: 0px;
   }
 }
@@ -903,18 +922,18 @@ div#contactpage div#contactform input {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage div#contactform input {
-    width: 35.5%;
+    width: 33%;
   }
 }
 div#contactpage div#contactform input#half1 {
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform input#half2 {
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform input#onea {
   width: 90%;
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform textarea {
   margin: 1rem;
