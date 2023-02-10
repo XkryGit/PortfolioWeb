@@ -63,11 +63,12 @@ div#header ul {
     position: absolute;
     bottom: -85vh;
     border: solid 1.8px #f4f9f9;
+    border-radius: 6px;
   }
 }
 @media screen and (max-width: 850px) {
   div#header a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 div#header a:link {
