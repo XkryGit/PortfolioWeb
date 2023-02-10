@@ -203,7 +203,7 @@ div#sign div#links {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
   }
 }
 div#sign div#links img {
@@ -675,8 +675,8 @@ div#about {
   div#about {
     flex-direction: column-reverse;
     margin: 0;
-    margin-top: 100px;
-    height: 140vh;
+    margin-top: 0px;
+    height: 110vh;
   }
 }
 div#about div {
@@ -877,7 +877,7 @@ div#contactpage button#form {
 @media screen and (max-width: 1300px) {
   div#contactpage button#form {
     margin-top: 1rem;
-    margin-left: 0px;
+    margin-left: 50px;
     margin-bottom: 70px;
   }
 }
@@ -905,8 +905,8 @@ div#contactpage div#contactform {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage div#contactform {
-    width: 350px;
-    margin-right: 100px;
+    width: 300px;
+    margin-right: 50px;
     margin-bottom: 0px;
   }
 }
@@ -920,18 +920,18 @@ div#contactpage div#contactform input {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage div#contactform input {
-    width: 35.5%;
+    width: 33%;
   }
 }
 div#contactpage div#contactform input#half1 {
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform input#half2 {
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform input#onea {
   width: 90%;
-  height: 5vh;
+  height: 4vh;
 }
 div#contactpage div#contactform textarea {
   margin: 1rem;
