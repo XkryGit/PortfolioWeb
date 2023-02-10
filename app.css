@@ -61,7 +61,7 @@ div#header ul {
     background-color: #33b0cc;
     opacity: 95%;
     position: absolute;
-    bottom: -75vh;
+    bottom: -85vh;
     border: solid 1.8px #f4f9f9;
   }
 }
@@ -441,8 +441,7 @@ div#present img#habilidadesfondo {
 }
 @media screen and (max-width: 850px) {
   div#present img#habilidadesfondo {
-    margin-left: -10px;
-    width: 100vw;
+    width: 110vw;
     height: 60vh;
   }
 }
@@ -543,6 +542,7 @@ div#proyects ul {
 @media screen and (max-width: 850px) {
   div#proyects ul {
     flex-direction: column;
+    margin-left: -50px;
   }
 }
 div#proyects img {
@@ -550,7 +550,7 @@ div#proyects img {
 }
 @media screen and (max-width: 850px) {
   div#proyects img {
-    width: 70vw;
+    width: 90vw;
   }
 }
 div#proyects img#hover {
