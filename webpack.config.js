@@ -15,7 +15,6 @@ module.exports = {
   stats: "errors-only",
   output: {
     filename: "[name].[chunkhash].js",
-    publicPath: "/",
     clean: true,
   },
   devServer: { historyApiFallback: true },
@@ -86,10 +85,9 @@ module.exports = {
     ],
   },
   plugins: [
-    //Generate index.html in /dist => https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: "index.html", //Name of file in ./dist/
-      template: "index.html", //Name of template in ./src
+      filename: "index.html",
+      template: "index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
