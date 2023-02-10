@@ -67,7 +67,7 @@ div#header ul {
 }
 @media screen and (max-width: 850px) {
   div#header a {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
 }
 div#header a:link {
@@ -213,8 +213,8 @@ div#sign div#links img {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links img {
-    width: 7vw;
-    height: 7vw;
+    width: 10vw;
+    height: 10vw;
     padding-bottom: 0;
   }
 }
@@ -225,8 +225,8 @@ div#sign div#links img:hover {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links img:hover {
-    width: 8vw;
-    height: 8vw;
+    width: 12vw;
+    height: 12vw;
   }
 }
 
@@ -862,7 +862,7 @@ div#contactpage button {
 }
 @media screen and (max-width: 1300px) {
   div#contactpage button {
-    margin-left: 0px;
+    margin-left: 30px;
   }
 }
 div#contactpage button:hover {
@@ -906,7 +906,8 @@ div#contactpage div#contactform {
 @media screen and (max-width: 1300px) {
   div#contactpage div#contactform {
     width: 300px;
-    margin-right: 50px;
+    margin-left: -60px;
+    margin-right: 0px;
     margin-bottom: 0px;
   }
 }
