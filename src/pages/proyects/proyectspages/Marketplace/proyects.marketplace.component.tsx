@@ -20,7 +20,7 @@ export const ProyectMarketplaceComponent: React.FC = () => {
           <div id="text">
             <h1>MARKETPLACE DESIGN</h1>
             <div id="subtitle">
-              <h2>Proyect UX-UI</h2>
+              <h2>Project UX-UI</h2>
               <h2>-</h2>
               <h2>2021</h2>
             </div>

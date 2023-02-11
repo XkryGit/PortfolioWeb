@@ -22,7 +22,7 @@ export const ProyectNescafeComponent: React.FC = () => {
           <div id="text">
             <h1>NESCAFÉ PACKAGING</h1>
             <div id="subtitle">
-              <h2>Proyect Visual Design</h2>
+              <h2>Project Visual Design</h2>
               <h2>-</h2>
               <h2>2019</h2>
             </div>

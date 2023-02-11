@@ -24,7 +24,7 @@ export const ProyectCatchupComponent: React.FC = () => {
           <div id="text">
             <h1>CATCHUP MAGAZINE</h1>
             <div id="subtitle">
-              <h2>Proyect Visual Design</h2>
+              <h2>Project Visual Design</h2>
               <h2>-</h2>
               <h2>2019</h2>
             </div>
@@ -48,7 +48,7 @@ export const ProyectCatchupComponent: React.FC = () => {
         </div>
         <div id="imagescolumn">
           <div id="columna">
-            <video id="column" autoPlay mutedº loop src={catch2video} />
+            <video id="column" autoPlay muted loop src={catch2video} />
             <img id="column" src={catch3} />
             <img id="column" src={catch4} />
           </div>

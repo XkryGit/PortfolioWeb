@@ -24,7 +24,7 @@ export const ProyectHepicoComponent: React.FC = () => {
           <div id="text">
             <h1>HÉPICO FEST</h1>
             <div id="subtitle">
-              <h2>Proyect Visual Design</h2>
+              <h2>Project Visual Design</h2>
               <h2>-</h2>
               <h2>2019</h2>
             </div>

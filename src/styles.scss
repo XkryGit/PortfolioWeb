@@ -818,6 +818,8 @@ div#contactpage {
     @media screen and (max-width: 1300px) {
       margin-left: 100px;
       margin-top: -100px;
+      visibility: hidden;
+      display: none;
     }
   }
   div#contactform {
@@ -1125,5 +1127,32 @@ div#proyectsDetails {
     display: flex;
     justify-content: center;
     margin: 5%;
+  }
+
+  div#button {
+    display: flex;
+    justify-content: center;
+  }
+
+  button#gitbutton {
+    width: 320px;
+    height: 60px;
+    font-family: $SecText;
+    padding: 1.2rem;
+    border-radius: 0%;
+    margin: 5rem;
+    margin-top: 1rem;
+    border: solid $PrimColor 2px;
+    background-color: #f4f9f9;
+    @media screen and (max-width: 850px) {
+      padding: 15px;
+      margin: 15px;
+    }
+  }
+
+  button#gitbutton:hover {
+    font-weight: 700;
+    background-color: $PrimColor;
+    color: $back-color;
   }
 }

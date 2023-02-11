@@ -892,6 +892,8 @@ div#contactpage div#form {
   div#contactpage div#form {
     margin-left: 100px;
     margin-top: -100px;
+    visibility: hidden;
+    display: none;
   }
 }
 div#contactpage div#contactform {
@@ -1242,4 +1244,30 @@ div#proyectsDetails div#banner {
   display: flex;
   justify-content: center;
   margin: 5%;
+}
+div#proyectsDetails div#button {
+  display: flex;
+  justify-content: center;
+}
+div#proyectsDetails button#gitbutton {
+  width: 320px;
+  height: 60px;
+  font-family: "Roboto Mono", monospace;
+  padding: 1.2rem;
+  border-radius: 0%;
+  margin: 5rem;
+  margin-top: 1rem;
+  border: solid #33b0cc 2px;
+  background-color: #f4f9f9;
+}
+@media screen and (max-width: 850px) {
+  div#proyectsDetails button#gitbutton {
+    padding: 15px;
+    margin: 15px;
+  }
+}
+div#proyectsDetails button#gitbutton:hover {
+  font-weight: 700;
+  background-color: #33b0cc;
+  color: #f4f9f9;
 }

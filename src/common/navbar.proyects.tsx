@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
           <Link to={"/"}>Home</Link>
           <Link to={"/bio"}>About</Link>
           <Link id="click" to={"/proyects"}>
-            Proyects
+            Projects
           </Link>
           <Link to={"/contact"}>Contact</Link>
         </ul>

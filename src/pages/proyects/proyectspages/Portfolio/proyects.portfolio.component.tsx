@@ -11,6 +11,9 @@ const portfolio6 = require("../../../../images/portfolio6.png");
 const bannermarket = require("../../../../images/bannermarket.png");
 
 export const ProyectPortfolioComponent: React.FC = () => {
+  const handleClickExt = (x) => {
+    window.open(x, "_blank");
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,7 +27,7 @@ export const ProyectPortfolioComponent: React.FC = () => {
           <div id="text">
             <h1>PORTFOLIO WEB DESIGN</h1>
             <div id="subtitle">
-              <h2>Proyect Web App</h2>
+              <h2>Project Web App</h2>
               <h2>-</h2>
               <h2>2023</h2>
             </div>
@@ -37,6 +40,16 @@ export const ProyectPortfolioComponent: React.FC = () => {
               <b>Webpack, React, typescript, and SASS,</b> among others.
             </h3>
             <h3>All the resources were created by myself.</h3>
+            <div id="button">
+              <button
+                id="gitbutton"
+                onClick={() =>
+                  handleClickExt("https://github.com/XkryGit/PortfolioWeb")
+                }
+              >
+                view the project in git
+              </button>
+            </div>
           </div>
         </div>
         <div id="imagesduo">
