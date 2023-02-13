@@ -12,6 +12,7 @@ export const Sign: React.FC = () => {
   const handleClickExt = (x) => {
     window.open(x, "_blank");
   };
+
   return (
     <>
       <div id="sign">

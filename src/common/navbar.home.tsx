@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const logo = require("../images/LogoA.png");
@@ -6,6 +6,11 @@ const logo = require("../images/LogoA.png");
 export const Navbar: React.FC = () => {
   const navigate = useNavigate();
   const handleClick = (x = "/") => navigate(x);
+  useEffect(() => {
+    console.log(
+      "Hello, this is the first version of my personal portfolio, where I have tried to show part of my potential. Everything you can see on this website is created and developed by me without help, for that reason I may have some errors that I am still working on. Greetings and I hope you like it."
+    );
+  }, []);
 
   return (
     <>
