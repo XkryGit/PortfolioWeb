@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Bio } from "./pages/bio/bio";
-import { Proyects } from "./pages/proyects/proyects";
+import { Proyects } from "./pages/proyects/projects";
 import { Contact } from "./pages/contact/contact";
 import { Home } from "./pages/home/home";
 import { ProyectCatchup } from "./pages/proyects/proyectspages/CatchUp/proyects.cachup";
