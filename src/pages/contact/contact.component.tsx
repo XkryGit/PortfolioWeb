@@ -43,7 +43,6 @@ export const ContactComponent: React.FC = () => {
             </button>
           </div>
         </div>
-        <ContactformComponent />
       </div>
     </>
   );
