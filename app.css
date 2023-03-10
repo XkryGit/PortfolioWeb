@@ -345,7 +345,6 @@ div#home video#illus {
   div#home video#illus {
     width: 330px;
     display: flex;
-    margin-left: 35px;
   }
 }
 
@@ -385,7 +384,7 @@ div#present h1#title {
 @media screen and (max-width: 850px) {
   div#present h1#title {
     margin: 0;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     justify-content: center;
   }
 }
@@ -404,7 +403,7 @@ div#present img#sub {
 }
 @media screen and (max-width: 850px) {
   div#present img#sub {
-    margin-bottom: -28px;
+    margin-bottom: -23px;
     margin-left: 45px;
     width: 260px;
     height: 8px;
@@ -442,7 +441,7 @@ div#present img#habilidadesfondo {
 }
 @media screen and (max-width: 850px) {
   div#present img#habilidadesfondo {
-    width: 110vw;
+    width: 108vw;
     height: 60vh;
   }
 }
@@ -680,8 +679,7 @@ div#about {
     flex-direction: column-reverse;
     align-items: center;
     margin: 0;
-    margin-top: 400px;
-    height: 110vh;
+    height: 100%;
   }
 }
 div#about div {
