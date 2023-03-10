@@ -43,7 +43,7 @@ div#header {
     padding-left: 6vw;
     padding-top: 6vw;
     background-color: transparent;
-    margin-left: -20px;
+    margin-left: -33px;
   }
 }
 div#header ul {
@@ -171,7 +171,7 @@ div#sign {
 }
 @media screen and (max-width: 850px) {
   div#sign {
-    width: 110vw;
+    width: 100vw;
   }
 }
 div#sign img#logo {
@@ -204,7 +204,7 @@ div#sign div#links {
 }
 @media screen and (max-width: 850px) {
   div#sign div#links {
-    margin-bottom: 300px;
+    margin-bottom: 200px;
   }
 }
 div#sign div#links img {
@@ -366,7 +366,7 @@ div#present {
     margin: 0;
     margin-left: 5vw;
     margin-top: 32vh;
-    width: 80%;
+    width: 62vw;
   }
 }
 div#present h1#title {
@@ -385,7 +385,7 @@ div#present h1#title {
 @media screen and (max-width: 850px) {
   div#present h1#title {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     justify-content: center;
   }
 }
@@ -458,6 +458,7 @@ div#present img#habilidadesgraficas {
 @media screen and (max-width: 850px) {
   div#present img#habilidadesgraficas {
     width: 325px;
+    margin-left: 40px;
   }
 }
 div#present img#habilidadesgraficas:hover {
@@ -492,6 +493,7 @@ div#proyects {
 @media screen and (max-width: 850px) {
   div#proyects {
     margin: 0px;
+    width: 80vw;
   }
 }
 div#proyects h1#title {
@@ -577,6 +579,7 @@ div#contact {
 @media screen and (max-width: 850px) {
   div#contact {
     margin: 0px;
+    width: 80vw;
   }
 }
 div#contact h1 {
@@ -675,8 +678,9 @@ div#about {
 @media screen and (max-width: 850px) {
   div#about {
     flex-direction: column-reverse;
+    align-items: center;
     margin: 0;
-    margin-top: 200px;
+    margin-top: 400px;
     height: 110vh;
   }
 }
@@ -773,8 +777,8 @@ div#proyectspage div {
 }
 @media screen and (max-width: 850px) {
   div#proyectspage ul {
-    margin-top: 0px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 }
 div#proyectspage img {
@@ -788,7 +792,7 @@ div#proyectspage img {
 }
 @media screen and (max-width: 850px) {
   div#proyectspage img {
-    height: 38vh;
+    height: 22vh;
   }
 }
 div#proyectspage img#hover {
@@ -813,7 +817,6 @@ div#contactpage {
   div#contactpage {
     flex-direction: column;
     align-items: center;
-    height: 140vh;
     margin-left: 20px;
     margin-top: 7vh;
     height: 100%;
@@ -829,6 +832,7 @@ div#contactpage div {
 @media screen and (max-width: 850px) {
   div#contactpage div {
     width: 80vw;
+    height: 80vh;
   }
 }
 div#contactpage h3 {
@@ -1079,7 +1083,7 @@ div#proyectsDetails img#banner {
 }
 @media screen and (max-width: 850px) {
   div#proyectsDetails img#banner {
-    width: 115%;
+    width: 110%;
     margin-bottom: 25px;
     margin-top: -50px;
   }
