@@ -314,7 +314,6 @@ div#home {
     @media screen and (max-width: 850px) {
       width: 330px;
       display: flex;
-      margin-left: 35px;
     }
   }
 }
@@ -351,7 +350,7 @@ div#present {
     }
     @media screen and (max-width: 850px) {
       margin: 0;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       justify-content: center;
     }
   }
@@ -367,7 +366,7 @@ div#present {
       height: 10px;
     }
     @media screen and (max-width: 850px) {
-      margin-bottom: -28px;
+      margin-bottom: -23px;
       margin-left: 45px;
       width: 260px;
       height: 8px;
@@ -403,7 +402,7 @@ div#present {
     height: 90vh;
 
     @media screen and (max-width: 850px) {
-      width: 110vw;
+      width: 108vw;
       height: 60vh;
     }
   }
@@ -620,8 +619,7 @@ div#about {
     flex-direction: column-reverse;
     align-items: center;
     margin: 0;
-    margin-top: 400px;
-    height: 110vh;
+    height: 100%;
   }
 
   div {
