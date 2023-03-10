@@ -41,7 +41,7 @@ div#header {
     padding-left: 6vw;
     padding-top: 6vw;
     background-color: transparent;
-    margin-left: -20px;
+    margin-left: -33px;
   }
 
   ul {
@@ -157,7 +157,7 @@ div#sign {
   height: 100%;
   width: 100vw;
   @media screen and (max-width: 850px) {
-    width: 110vw;
+    width: 100vw;
   }
 
   img#logo {
@@ -184,7 +184,7 @@ div#sign {
     display: flex;
     margin: 2rem;
     @media screen and (max-width: 850px) {
-      margin-bottom: 300px;
+      margin-bottom: 200px;
     }
 
     img {
@@ -335,7 +335,7 @@ div#present {
     margin: 0;
     margin-left: 5vw;
     margin-top: 32vh;
-    width: 80%;
+    width: 62vw;
   }
 
   h1#title {
@@ -351,7 +351,7 @@ div#present {
     }
     @media screen and (max-width: 850px) {
       margin: 0;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       justify-content: center;
     }
   }
@@ -416,6 +416,7 @@ div#present {
     }
     @media screen and (max-width: 850px) {
       width: 325px;
+      margin-left: 40px;
     }
   }
 
@@ -446,6 +447,7 @@ div#proyects {
   font-weight: 400;
   @media screen and (max-width: 850px) {
     margin: 0px;
+    width: 80vw;
   }
 
   h1#title {
@@ -527,6 +529,7 @@ div#contact {
   font-weight: 400;
   @media screen and (max-width: 850px) {
     margin: 0px;
+    width: 80vw;
   }
 
   h1 {
@@ -615,8 +618,9 @@ div#about {
   font-family: $SecText;
   @media screen and (max-width: 850px) {
     flex-direction: column-reverse;
+    align-items: center;
     margin: 0;
-    margin-top: 200px;
+    margin-top: 400px;
     height: 110vh;
   }
 
@@ -705,8 +709,8 @@ div#proyectspage {
       margin-bottom: 100px;
     }
     @media screen and (max-width: 850px) {
-      margin-top: 0px;
-      margin-bottom: 15px;
+      margin-top: 50px;
+      margin-bottom: 30px;
     }
   }
 
@@ -717,7 +721,7 @@ div#proyectspage {
       height: 70vh;
     }
     @media screen and (max-width: 850px) {
-      height: 38vh;
+      height: 22vh;
     }
   }
 
@@ -743,7 +747,6 @@ div#contactpage {
   @media screen and (max-width: 850px) {
     flex-direction: column;
     align-items: center;
-    height: 140vh;
     margin-left: 20px;
     margin-top: 7vh;
     height: 100%;
@@ -757,6 +760,7 @@ div#contactpage {
     align-items: flex-start;
     @media screen and (max-width: 850px) {
       width: 80vw;
+      height: 80vh;
     }
   }
 
@@ -982,7 +986,7 @@ div#proyectsDetails {
   img#banner {
     width: 75%;
     @media screen and (max-width: 850px) {
-      width: 115%;
+      width: 110%;
       margin-bottom: 25px;
       margin-top: -50px;
     }
