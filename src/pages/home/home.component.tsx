@@ -3,6 +3,7 @@ import { HomeStartComponent } from "./home.start.component";
 import { HomePresentComponent } from "./home.present.component";
 import { HomeProyectsComponent } from "./home.proyects.component";
 import { HomeContactComponent } from "./home.contact.component";
+import "./home.styles.scss";
 
 export const HomeComponent: React.FC = () => {
   useEffect(() => {

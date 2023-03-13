@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar } from "../../common/navbar.about";
 import { Sign } from "../../common/sign";
-import { BioComponent } from "./bio.component";
+import { AboutComponent } from "./about.component";
+import "./about.styles.scss";
 
-export const Bio: React.FC = () => {
+export const About: React.FC = () => {
   return (
     <>
       <Navbar />
-      <BioComponent />
+      <AboutComponent />
       <Sign />
     </>
   );

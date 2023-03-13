@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const aboutphoto = require("../../images/aboutphoto.png");
 
-export const BioComponent: React.FC = () => {
+export const AboutComponent: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

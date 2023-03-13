@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { Bio } from "./pages/bio/bio";
+import { About } from "./pages/about/about";
 import { Proyects } from "./pages/proyects/projects";
 import { Contact } from "./pages/contact/contact";
 import { Home } from "./pages/home/home";
@@ -18,7 +18,7 @@ export const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/bio" element={<Bio />} />
+        <Route path="/about" element={<About />} />
         <Route path="/proyects" element={<Proyects />} />
         <Route path="/proyects/catchup" element={<ProyectCatchup />} />
         <Route path="/proyects/adidas" element={<ProyectAdidas />} />

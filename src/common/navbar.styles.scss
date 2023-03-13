@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@300;400;700&display=swap");
+$back-color: #f4f9f9;
+$PrimColor: #33b0cc;
+$SecColor: #000033;
+$PrimText: "Montserrat", sans-serif;
+$SecText: "Roboto Mono", monospace;
+
+div#header {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 30px;
+  font-family: $SecText;
+  padding: 30px;
+  padding-bottom: 0;
+  background-color: $back-color;
+  z-index: 1;
+  @media screen and (max-width: 850px) {
+    justify-content: space-around;
+    left: 0;
+    padding-left: 6vw;
+    padding-top: 6vw;
+    background-color: transparent;
+    margin-left: -33px;
+  }
+
+  ul {
+    margin-right: 40px;
+    @media screen and (max-width: 1300px) {
+      margin-right: 40px;
+    }
+
+    @media screen and (max-width: 850px) {
+      margin-right: -10px;
+      padding: 0vh;
+      background-color: $PrimColor;
+      opacity: 95%;
+      position: absolute;
+      bottom: -85vh;
+      border: solid 1.8px $back-color;
+      border-radius: 6px;
+    }
+  }
+
+  a {
+    @media screen and (max-width: 850px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  a:link {
+    color: $SecColor;
+    text-decoration: none;
+    padding-right: 50px;
+
+    @media screen and (max-width: 1300px) {
+      padding-right: 40px;
+    }
+    @media screen and (max-width: 850px) {
+      padding: 2vw;
+    }
+  }
+
+  a:visited {
+    color: $SecColor;
+    @media screen and (max-width: 850px) {
+      color: $back-color;
+    }
+  }
+
+  a:hover {
+    color: $PrimColor;
+    font-weight: 700;
+    @media screen and (max-width: 850px) {
+      color: $SecColor;
+    }
+  }
+
+  a:link#click {
+    color: $SecColor;
+    text-decoration: none;
+    padding-right: 50px;
+    font-weight: 700;
+    @media screen and (max-width: 1300px) {
+      padding-right: 40px;
+    }
+    @media screen and (max-width: 850px) {
+      padding: 2vw;
+    }
+  }
+
+  a#click:hover {
+    color: $SecColor;
+  }
+
+  img#logo {
+    display: flex;
+    height: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+    @media screen and (max-width: 850px) {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+  ul#navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    @media screen and (max-width: 850px) {
+      margin-left: 35px;
+    }
+  }
+
+  span#codeBy {
+    position: fixed;
+    font-size: 0.6rem;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    top: 90vh;
+    left: 35px;
+    @media screen and (max-width: 850px) {
+      visibility: hidden;
+      display: none;
+    }
+  }
+}

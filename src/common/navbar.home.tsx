@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./navbar.styles.scss";
 
 const logo = require("../images/LogoA.png");
 
@@ -20,7 +21,7 @@ export const Navbar: React.FC = () => {
           <Link id="click" to={"/"}>
             Home
           </Link>
-          <Link to={"/bio"}>About</Link>
+          <Link to={"/about"}>About</Link>
           <Link to={"/proyects"}>Projects</Link>
           <Link to={"/contact"}>Contact</Link>
         </ul>

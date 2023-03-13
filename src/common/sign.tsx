@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./sign.styles.scss";
 
 const logo = require("../images/LogoB.png");
 const gh = require("../images/gh.png");

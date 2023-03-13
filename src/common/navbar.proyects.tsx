@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import "./navbar.styles.scss";
 
 const logo = require("../images/LogoA.png");
 
@@ -12,7 +13,7 @@ export const Navbar: React.FC = () => {
         <img id="logo" onClick={() => handleClick("/")} src={logo} />
         <ul id="navbar">
           <Link to={"/"}>Home</Link>
-          <Link to={"/bio"}>About</Link>
+          <Link to={"/about"}>About</Link>
           <Link id="click" to={"/proyects"}>
             Projects
           </Link>

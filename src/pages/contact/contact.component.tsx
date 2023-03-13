@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { ContactformComponent } from "./contactform.component";
 
 const sub = require("../../images/sub.png");
 
