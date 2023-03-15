@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const illus1 = require("../../../../images/illus1.png");
-const illus2 = require("../../../../images/illus2.png");
-const illus3 = require("../../../../images/illus3.png");
-const illus4 = require("../../../../images/illus4.png");
-const illus5 = require("../../../../images/illus5.png");
-const illus6 = require("../../../../images/illus6.png");
-const illus7 = require("../../../../images/illus7.png");
-const bannertou = require("../../../../images/bannertou.png");
+import illus1 from "../../../../archives/illus1.png";
+import illus2 from "../../../../archives/illus2.png";
+import illus3 from "../../../../archives/illus3.png";
+import illus4 from "../../../../archives/illus4.png";
+import illus5 from "../../../../archives/illus5.png";
+import illus6 from "../../../../archives/illus6.png";
+import illus7 from "../../../../archives/illus7.png";
+import bannertou from "../../../../archives/bannertou.png";
 
 export const ProyectIllustrationComponent: React.FC = () => {
   useEffect(() => {

@@ -1,16 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router";
-
-const sub = require("../../images/sub.png");
-const nescafe = require("../../images/pro1.png");
-const tourism = require("../../images/pro2.png");
-const catchup = require("../../images/pro3.png");
-const portfolio = require("../../images/pro4.png");
-const marketplace = require("../../images/pro5.png");
-const hepico = require("../../images/pro6.png");
-const adidas = require("../../images/pro7.png");
-const illustration = require("../../images/pro8.png");
-const hover = require("../../images/hover.png");
+import sub from "../../archives/sub.png";
+import nescafe from "../../archives/pro1.png";
+import tourism from "../../archives/pro2.png";
+import catchup from "../../archives/pro3.png";
+import portfolio from "../../archives/pro4.png";
+import marketplace from "../../archives/pro5.png";
+import hepico from "../../archives/pro6.png";
+import adidas from "../../archives/pro7.png";
+import illustration from "../../archives/pro8.png";
+import hover from "../../archives/hover.png";
 
 export const HomeProyectsComponent = () => {
   const navigate = useNavigate();

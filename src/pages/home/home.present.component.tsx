@@ -1,8 +1,7 @@
 import React from "react";
-
-const habilidadesfondo = require("../../images/habilidadesfondo.png");
-const habilidadesgraficas = require("../../images/habilidadesgraficas.png");
-const sub = require("../../images/sub.png");
+import habilidadesfondo from "../../archives/habilidadesfondo.png";
+import habilidadesgraficas from "../../archives/habilidadesgraficas.png";
+import sub from "../../archives/sub.png";
 
 export const HomePresentComponent: React.FC = () => {
   return (

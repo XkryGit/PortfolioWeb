@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const tourism1 = require("../../../../images/tourism1.png");
-const tou2 = require("../../../../images/tou2.png");
-const tou3 = require("../../../../images/tou3.png");
-const tou4 = require("../../../../images/tou4.png");
-const tou5 = require("../../../../images/tou5.png");
-const tou6 = require("../../../../images/tou6.png");
-const tou7 = require("../../../../images/tou7.png");
-const bannerportfolio = require("../../../../images/bannerportfolio.png");
+import tourism1 from "../../../../archives/tourism1.png";
+import tou2 from "../../../../archives/tou2.png";
+import tou3 from "../../../../archives/tou3.png";
+import tou4 from "../../../../archives/tou4.png";
+import tou5 from "../../../../archives/tou5.png";
+import tou6 from "../../../../archives/tou6.png";
+import tou7 from "../../../../archives/tou7.png";
+import bannerportfolio from "../../../../archives/bannerportfolio.png";
 
 export const ProyectTourismComponent: React.FC = () => {
   useEffect(() => {

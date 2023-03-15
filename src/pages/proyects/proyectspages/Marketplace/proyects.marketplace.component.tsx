@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const market1 = require("../../../../images/market1.png");
-const market2 = require("../../../../images/market2.png");
-const market3 = require("../../../../images/market3.png");
-const bannercatch = require("../../../../images/bannercatch.png");
+import market1 from "../../../../archives/market1.png";
+import market2 from "../../../../archives/market2.png";
+import market3 from "../../../../archives/market3.png";
+import bannercatch from "../../../../archives/bannercatch.png";
 
 export const ProyectMarketplaceComponent: React.FC = () => {
   useEffect(() => {

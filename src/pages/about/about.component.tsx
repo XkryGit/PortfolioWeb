@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-
-const aboutphoto = require("../../images/aboutphoto.png");
+import aboutphoto from "../../archives/aboutphoto.png";
 
 export const AboutComponent: React.FC = () => {
   useEffect(() => {

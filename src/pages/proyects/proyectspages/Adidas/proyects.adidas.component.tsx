@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import adidas2video from "../../../../images/adidas2video.mp4";
-import adidas4video from "../../../../images/adidas4video.mp4";
-import adidas6video from "../../../../images/adidas6video.mp4";
-
-const adidas1 = require("../../../../images/adidas1.png");
-const adidas6 = require("../../../../images/adidas3.png");
-const adidas5 = require("../../../../images/adidas5.png");
-const adidas7 = require("../../../../images/adidas7.png");
-const bannerhepico = require("../../../../images/bannerhepico.png");
+import adidas2video from "../../../../archives/adidas2video.mp4";
+import adidas4video from "../../../../archives/adidas4video.mp4";
+import adidas6video from "../../../../archives/adidas6video.mp4";
+import adidas1 from "../../../../archives/adidas1.png";
+import adidas6 from "../../../../archives/adidas3.png";
+import adidas5 from "../../../../archives/adidas5.png";
+import adidas7 from "../../../../archives/adidas7.png";
+import bannerhepico from "../../../../archives/bannerhepico.png";
 
 export const ProyectAdidasComponent: React.FC = () => {
   useEffect(() => {

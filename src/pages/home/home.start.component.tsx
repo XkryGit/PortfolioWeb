@@ -1,7 +1,6 @@
 import React from "react";
-import adolfobrillo from "../../images/adolfobrillo.mp4";
-
-const sub = require("../../images/sub.png");
+import adolfobrillo from "../../archives/adolfobrillo.mp4";
+import sub from "../../archives/sub.png";
 
 export const HomeStartComponent: React.FC = () => {
   const playMovie = (e) => {

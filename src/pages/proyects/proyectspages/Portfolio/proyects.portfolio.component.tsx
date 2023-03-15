@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const port1 = require("../../../../images/pro4.png");
-const portfolio1 = require("../../../../images/portfolio1.png");
-const portfolio2 = require("../../../../images/portfolio2.png");
-const portfolio3 = require("../../../../images/portfolio3.png");
-const portfolio4 = require("../../../../images/portfolio4.png");
-const portfolio5 = require("../../../../images/portfolio5.png");
-const portfolio6 = require("../../../../images/portfolio6.png");
-const bannermarket = require("../../../../images/bannermarket.png");
+import port1 from "../../../../archives/pro4.png";
+import portfolio1 from "../../../../archives/portfolio1.png";
+import portfolio2 from "../../../../archives/portfolio2.png";
+import portfolio3 from "../../../../archives/portfolio3.png";
+import portfolio4 from "../../../../archives/portfolio4.png";
+import portfolio5 from "../../../../archives/portfolio5.png";
+import portfolio6 from "../../../../archives/portfolio6.png";
+import bannermarket from "../../../../archives/bannermarket.png";
 
 export const ProyectPortfolioComponent: React.FC = () => {
   const handleClickExt = (x) => {

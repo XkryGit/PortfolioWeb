@@ -1,6 +1,5 @@
 import React from "react";
-
-const sub = require("../../images/sub.png");
+import sub from "../../archives/sub.png";
 
 export const HomeContactComponent: React.FC = () => {
   const handleClickExt = (x) => {

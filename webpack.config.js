@@ -27,7 +27,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpg)$/,
-        type: "asset/resource",
+        loader: "file-loader",
+        options: {
+          name: "[name].[ext]",
+          outputPath: "images",
+        },
       },
       {
         test: /\.html$/,
@@ -66,6 +70,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
+              outputPath: "pdf",
             },
           },
         ],

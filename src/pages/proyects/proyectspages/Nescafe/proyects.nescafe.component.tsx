@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const nescafe1 = require("../../../../images/nescafe1.png");
-const nescafe2 = require("../../../../images/nescafe2.png");
-const nescafe3 = require("../../../../images/nescafe3.png");
-const nescafe4 = require("../../../../images/nescafe4.png");
-const nescafe5 = require("../../../../images/nescafe5.png");
-const bannerillus = require("../../../../images/bannerillus.png");
+import nescafe1 from "../../../../archives/nescafe1.png";
+import nescafe2 from "../../../../archives/nescafe2.png";
+import nescafe3 from "../../../../archives/nescafe3.png";
+import nescafe4 from "../../../../archives/nescafe4.png";
+import nescafe5 from "../../../../archives/nescafe5.png";
+import bannerillus from "../../../../archives/bannerillus.png";
 
 export const ProyectNescafeComponent: React.FC = () => {
   useEffect(() => {

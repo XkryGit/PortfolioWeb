@@ -1,22 +1,21 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const catchup = require("../../images/prod1.png");
-const adidas = require("../../images/prod2.png");
-const hepico = require("../../images/prod3.png");
-const nescafe = require("../../images/prod4.png");
-const market = require("../../images/prod5.png");
-const illustration = require("../../images/prod6.png");
-const tourism = require("../../images/prod7.png");
-const portfolio = require("../../images/prod8.png");
-const catchuphover = require("../../images/hover1.png");
-const nescafehover = require("../../images/hover4.png");
-const markethover = require("../../images/hover5.png");
-const portfoliohover = require("../../images/hover8.png");
-const hepicohover = require("../../images/hover3.png");
-const adidashover = require("../../images/hover2.png");
-const illustrationhover = require("../../images/hover6.png");
-const tourismhover = require("../../images/hover7.png");
+import catchup from "../../archives/prod1.png";
+import adidas from "../../archives/prod2.png";
+import hepico from "../../archives/prod3.png";
+import nescafe from "../../archives/prod4.png";
+import market from "../../archives/prod5.png";
+import illustration from "../../archives/prod6.png";
+import tourism from "../../archives/prod7.png";
+import portfolio from "../../archives/prod8.png";
+import catchuphover from "../../archives/hover1.png";
+import nescafehover from "../../archives/hover4.png";
+import markethover from "../../archives/hover5.png";
+import portfoliohover from "../../archives/hover8.png";
+import hepicohover from "../../archives/hover3.png";
+import adidashover from "../../archives/hover2.png";
+import illustrationhover from "../../archives/hover6.png";
+import tourismhover from "../../archives/hover7.png";
 
 export const ProyectsComponent: React.FC = () => {
   useEffect(() => {

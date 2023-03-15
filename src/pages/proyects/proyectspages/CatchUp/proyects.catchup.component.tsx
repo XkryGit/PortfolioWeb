@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import catch2video from "../../../../images/catch2video.mp4";
-import catch7video from "../../../../images/catch7video.mp4";
-
-const catch1 = require("../../../../images/catch1.png");
-const catch3 = require("../../../../images/catch3.png");
-const catch4 = require("../../../../images/catch4.png");
-const catch5 = require("../../../../images/catch5.png");
-const catch6 = require("../../../../images/catch6.png");
-const banneradidas = require("../../../../images/banneradidas.png");
+import catch2video from "../../../../archives/catch2video.mp4";
+import catch7video from "../../../../archives/catch7video.mp4";
+import catch1 from "../../../../archives/catch1.png";
+import catch3 from "../../../../archives/catch3.png";
+import catch4 from "../../../../archives/catch4.png";
+import catch5 from "../../../../archives/catch5.png";
+import catch6 from "../../../../archives/catch6.png";
+import banneradidas from "../../../../archives/banneradidas.png";
 
 export const ProyectCatchupComponent: React.FC = () => {
   useEffect(() => {

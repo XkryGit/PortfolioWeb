@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-const sub = require("../../images/sub.png");
-
 export const ContactComponent: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -1,11 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./sign.styles.scss";
-
-const logo = require("../images/LogoB.png");
-const gh = require("../images/gh.png");
-const gm = require("../images/gm.png");
-const ln = require("../images/ln.png");
+import logo from "../archives/LogoB.png";
+import gh from "../archives/gh.png";
+import gm from "../archives/gm.png";
+import ln from "../archives/ln.png";
 
 export const Sign: React.FC = () => {
   const navigate = useNavigate();

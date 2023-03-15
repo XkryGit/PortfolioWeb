@@ -1,14 +1,13 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-
-const hepico1 = require("../../../../images/hepico1.png");
-const hepico2 = require("../../../../images/hepico2.png");
-const hepico3 = require("../../../../images/hepico3.png");
-const hepico4 = require("../../../../images/hepico4.png");
-const hepico5 = require("../../../../images/hepico5.png");
-const hepico6 = require("../../../../images/hepico6.png");
-const hepico7 = require("../../../../images/hepico7.png");
-const bannernescafe = require("../../../../images/bannernescafe.png");
+import hepico1 from "../../../../archives/hepico1.png";
+import hepico2 from "../../../../archives/hepico2.png";
+import hepico3 from "../../../../archives/hepico3.png";
+import hepico4 from "../../../../archives/hepico4.png";
+import hepico5 from "../../../../archives/hepico5.png";
+import hepico6 from "../../../../archives/hepico6.png";
+import hepico7 from "../../../../archives/hepico7.png";
+import bannernescafe from "../../../../archives/bannernescafe.png";
 
 export const ProyectHepicoComponent: React.FC = () => {
   useEffect(() => {
