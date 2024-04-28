@@ -11,7 +11,7 @@ export const HomeContactComponent: React.FC = () => {
         <img id="sub" src={sub} />
         <h1 id="title">Contact me</h1>
         <h3>
-          I'm interested in working together, especially ambitious or large
+          I'm interested in working together, especially ambitious and larges
           projects. However, if you have other request or question, don't
           hesitate to question me as you prefer.
         </h3>

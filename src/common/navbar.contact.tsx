@@ -18,7 +18,7 @@ export const Navbar: React.FC = () => {
             Contact
           </Link>
         </ul>
-        <span id="codeBy">© Code by Adolfo Zambrana - 2023</span>
+        <span id="codeBy">© Code by Adolfo Zambrana - 2024</span>
       </div>
     </>
   );

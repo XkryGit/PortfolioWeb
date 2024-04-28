@@ -24,7 +24,7 @@ export const Navbar: React.FC = () => {
           <Link to={"/proyects"}>Projects</Link>
           <Link to={"/contact"}>Contact</Link>
         </ul>
-        <span id="codeBy">© Code by Adolfo Zambrana - 2023</span>
+        <span id="codeBy">© Code by Adolfo Zambrana - 2024</span>
       </div>
     </>
   );

@@ -8,10 +8,12 @@ import { ProyectCatchup } from "./pages/proyects/proyectspages/CatchUp/proyects.
 import { ProyectAdidas } from "./pages/proyects/proyectspages/Adidas/proyects.adidas";
 import { ProyectHepico } from "./pages/proyects/proyectspages/Hepico/proyects.hepico";
 import { ProyectNescafe } from "./pages/proyects/proyectspages/Nescafe/proyects.nescafe";
+import { ProyectBlinkGalaxy } from "./pages/proyects/proyectspages/BlinkGalaxy/proyects.blinkGalaxy";
 import { ProyectMarketplace } from "./pages/proyects/proyectspages/Marketplace/proyects.marketplace";
 import { ProyectIllustration } from "./pages/proyects/proyectspages/Illustration/proyects.illustration";
 import { ProyectTourism } from "./pages/proyects/proyectspages/Tourism/proyects.tourism";
 import { ProyectPortfolio } from "./pages/proyects/proyectspages/Portfolio/proyects.portfolio";
+import { ProyectManagmentWeb } from "./pages/proyects/proyectspages/ManagmentWeb/proyects.managmentWeb";
 
 export const App = () => {
   return (
@@ -24,6 +26,11 @@ export const App = () => {
         <Route path="/proyects/adidas" element={<ProyectAdidas />} />
         <Route path="/proyects/hepico" element={<ProyectHepico />} />
         <Route path="/proyects/nescafe" element={<ProyectNescafe />} />
+        <Route path="/proyects/blinkgalaxy" element={<ProyectBlinkGalaxy />} />
+        <Route
+          path="/proyects/managmentweb"
+          element={<ProyectManagmentWeb />}
+        />
         <Route path="/proyects/marketplace" element={<ProyectMarketplace />} />
         <Route path="/proyects/tourism" element={<ProyectTourism />} />
         <Route path="/proyects/portfolio" element={<ProyectPortfolio />} />

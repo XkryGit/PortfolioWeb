@@ -13,8 +13,8 @@ export const AboutComponent: React.FC = () => {
       <div id="about">
         <div>
           <h3>
-            Hello, my name is <b>Adolfo</b> , and I am looking to grow
-            permanently in the world of
+            Hello, my name is <b>Adolfo</b>, and I am looking to grow
+            permanently in the world of{" "}
             <b>FrontEnd programming, Graphic Design and Illustration.</b> I am
             natural and I live in Fuengirola, a small coastal city in the south
             of Spain. I studied <b> Audiovisual Communication</b> at the
@@ -30,15 +30,21 @@ export const AboutComponent: React.FC = () => {
             <b> basketball and video games.</b>
           </h3>
           <h3>
-            I have been working in a technological company for two years in
-            which I carried out, among other functions,
-            <b>application prototyping, and UX/UI design</b>, and during the
-            last year I have been studying and working as a FrontEnd designer. I
-            mainly work with technologies like <b>React, TypeScript and SASS</b>{" "}
-            among others, although I am used to working with{" "}
-            <b>Angular or Vanilla JavaScript.</b>
+            I worked for two years in a technology company where I performed,
+            among other functions,
+            <b> application prototyping and UX/UI design</b>, in the following
+            years and a half I was studying and working as a{" "}
+            <b>FrontEnd designer</b>, and in the last year I have worked for a
+            company of video games as
+            <b>Front-end developer specializing in UX/UI</b>, generating
+            platforms and management pages for the company's video game
+            ecosystem.
           </h3>
           <h3>
+            I mainly work with technologies such as
+            <b> Next.js, React, TypeScript, SASS or Tailwind</b>, among others,
+            although I am used to working with{" "}
+            <b>Angular or Vanilla JavaScript.</b>
             In the field of visual design, I work with the complete{" "}
             <b>Adobe pack</b>, managing practically all the tools. I am also
             familiar with working with <b>Agile Scrum</b> work methodologies.
@@ -51,7 +57,7 @@ export const AboutComponent: React.FC = () => {
           <button
             onClick={() =>
               handleClickExt(
-                "https://xkrygit.github.io/PortfolioWeb/CurriculumAdolfo2023.pdf"
+                "https://xkrygit.github.io/PortfolioWeb/CurriculumAdolfo2024Eng.pdf"
               )
             }
           >

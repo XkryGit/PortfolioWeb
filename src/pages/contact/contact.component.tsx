@@ -13,10 +13,9 @@ export const ContactComponent: React.FC = () => {
       <div id="contactpage">
         <div>
           <h3>
-            I am a person who is looking to grow and learn in the world of
-            FrontEnd programming, in order to be able, along with my visual
-            design skills, to be able to make great visual approaches to
-            projects.
+            I'm looking to grow and learn in the world of FrontEnd programming,
+            in order to be able, along with my visual design skills, to be able
+            to make great visual approaches to the projects.
           </h3>
           <h3>
             I'm interested in working together, especially ambitious or large

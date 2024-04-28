@@ -5,7 +5,7 @@ import nescafe2 from "../../../../archives/nescafe2.png";
 import nescafe3 from "../../../../archives/nescafe3.png";
 import nescafe4 from "../../../../archives/nescafe4.png";
 import nescafe5 from "../../../../archives/nescafe5.png";
-import bannerillus from "../../../../archives/bannerillus.png";
+import bannerBG from "../../../../archives/bannerBG.png";
 
 export const ProyectNescafeComponent: React.FC = () => {
   useEffect(() => {
@@ -52,8 +52,8 @@ export const ProyectNescafeComponent: React.FC = () => {
         <div id="banner">
           <img
             id="banner"
-            onClick={() => handleClick("/proyects/illustration")}
-            src={bannerillus}
+            onClick={() => handleClick("/proyects/blinkgalaxy")}
+            src={bannerBG}
           />
         </div>
       </div>

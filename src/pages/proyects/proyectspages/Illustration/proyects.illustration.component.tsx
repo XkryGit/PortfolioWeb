@@ -7,7 +7,7 @@ import illus4 from "../../../../archives/illus4.png";
 import illus5 from "../../../../archives/illus5.png";
 import illus6 from "../../../../archives/illus6.png";
 import illus7 from "../../../../archives/illus7.png";
-import bannertou from "../../../../archives/bannertou.png";
+import bannerbgm from "../../../../archives/bannerBGM.png";
 
 export const ProyectIllustrationComponent: React.FC = () => {
   useEffect(() => {
@@ -50,7 +50,7 @@ export const ProyectIllustrationComponent: React.FC = () => {
           <img
             id="banner"
             onClick={() => handleClick("/proyects/tourism")}
-            src={bannertou}
+            src={bannerbgm}
           />
         </div>
       </div>
