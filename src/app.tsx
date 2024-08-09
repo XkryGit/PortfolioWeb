@@ -1,45 +1,52 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { About } from "./pages/about/about";
-import { Proyects } from "./pages/proyects/projects";
+import { Projects } from "./pages/projects/projects";
 import { Contact } from "./pages/contact/contact";
 import { Home } from "./pages/home/home";
-import { ProyectCatchup } from "./pages/proyects/proyectspages/CatchUp/proyects.cachup";
-import { ProyectAdidas } from "./pages/proyects/proyectspages/Adidas/proyects.adidas";
-import { ProyectHepico } from "./pages/proyects/proyectspages/Hepico/proyects.hepico";
-import { ProyectNescafe } from "./pages/proyects/proyectspages/Nescafe/proyects.nescafe";
-import { ProyectBlinkGalaxy } from "./pages/proyects/proyectspages/BlinkGalaxy/proyects.blinkGalaxy";
-import { ProyectMarketplace } from "./pages/proyects/proyectspages/Marketplace/proyects.marketplace";
-import { ProyectIllustration } from "./pages/proyects/proyectspages/Illustration/proyects.illustration";
-import { ProyectTourism } from "./pages/proyects/proyectspages/Tourism/proyects.tourism";
-import { ProyectPortfolio } from "./pages/proyects/proyectspages/Portfolio/proyects.portfolio";
-import { ProyectManagmentWeb } from "./pages/proyects/proyectspages/ManagmentWeb/proyects.managmentWeb";
+import { ProjectCatchup } from "./pages/projects/projectspages/CatchUp/projects.cachup";
+import { ProjectAdidas } from "./pages/projects/projectspages/Adidas/projects.adidas";
+import { ProjectHepico } from "./pages/projects/projectspages/Hepico/projects.hepico";
+import { ProjectNescafe } from "./pages/projects/projectspages/Nescafe/projects.nescafe";
+import { ProjectBlinkGalaxy } from "./pages/projects/projectspages/BlinkGalaxy/projects.blinkGalaxy";
+import { ProjectMarketplace } from "./pages/projects/projectspages/Marketplace/projects.marketplace";
+import { ProjectIllustration } from "./pages/projects/projectspages/Illustration/projects.illustration";
+import { ProjectTourism } from "./pages/projects/projectspages/Tourism/projects.tourism";
+import { ProjectPortfolio } from "./pages/projects/projectspages/Portfolio/projects.portfolio";
+import { ProjectManagmentWeb } from "./pages/projects/projectspages/ManagmentWeb/projects.managmentWeb";
+import { Navbar } from "./common/navbar";
+import { Sign } from "./common/sign";
 
 export const App = () => {
-  return (
+  return (<>
+    
     <Router>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/proyects" element={<Proyects />} />
-        <Route path="/proyects/catchup" element={<ProyectCatchup />} />
-        <Route path="/proyects/adidas" element={<ProyectAdidas />} />
-        <Route path="/proyects/hepico" element={<ProyectHepico />} />
-        <Route path="/proyects/nescafe" element={<ProyectNescafe />} />
-        <Route path="/proyects/blinkgalaxy" element={<ProyectBlinkGalaxy />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/catchup" element={<ProjectCatchup />} />
+        <Route path="/projects/adidas" element={<ProjectAdidas />} />
+        <Route path="/projects/hepico" element={<ProjectHepico />} />
+        <Route path="/projects/nescafe" element={<ProjectNescafe />} />
+        <Route path="/projects/blinkgalaxy" element={<ProjectBlinkGalaxy />} />
         <Route
-          path="/proyects/managmentweb"
-          element={<ProyectManagmentWeb />}
+          path="/projects/managmentweb"
+          element={<ProjectManagmentWeb />}
         />
-        <Route path="/proyects/marketplace" element={<ProyectMarketplace />} />
-        <Route path="/proyects/tourism" element={<ProyectTourism />} />
-        <Route path="/proyects/portfolio" element={<ProyectPortfolio />} />
+        <Route path="/projects/marketplace" element={<ProjectMarketplace />} />
+        <Route path="/projects/tourism" element={<ProjectTourism />} />
+        <Route path="/projects/portfolio" element={<ProjectPortfolio />} />
         <Route
-          path="/proyects/illustration"
-          element={<ProyectIllustration />}
+          path="/projects/illustration"
+          element={<ProjectIllustration />}
         />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Sign />
     </Router>
+    
+    </>
   );
 };

@@ -11,7 +11,7 @@
   \**************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@300;400;700&display=swap);
 /*!********************************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./pages/proyects/projects.styles.scss ***!
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./pages/projects/projects.styles.scss ***!
   \********************************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Mono:wght@300;400;700&display=swap);
 /*!******************************************************************************************************************************!*\
@@ -325,7 +325,7 @@ div#about img {
   }
 }
 /*!************************************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./pages/proyects/projects.styles.scss (1) ***!
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./pages/projects/projects.styles.scss (1) ***!
   \************************************************************************************************************************************/
 div#proyectspage {
   display: flex;

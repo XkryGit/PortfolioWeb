@@ -26,6 +26,7 @@ export const Sign: React.FC = () => {
           <img
             onClick={() => handleClickExt("https://github.com/XkryGit")}
             src={gh}
+            alt="gh"
           />
           <img
             onClick={() =>
@@ -34,12 +35,14 @@ export const Sign: React.FC = () => {
               )
             }
             src={ln}
+            alt="ln"
           />
           <img
             onClick={() =>
               handleClickExt("mailto:adolfozambranagilabert@gmail.com")
             }
             src={gm}
+            alt="gm"
           ></img>
         </div>
       </div>
