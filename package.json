@@ -31,6 +31,7 @@
     "@types/react-router": "^5.1.20",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.3",
+    "cypress": "^13.13.2",
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.2",
     "html-webpack-plugin": "^5.5.0",

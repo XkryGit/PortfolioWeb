@@ -30,7 +30,7 @@ export const HomeProjectsComponent = () => {
               style={{ cursor: "pointer" }}
                data-testid="blinkgalaxy"
             />
-            <img id="nescafe" src={BG} />
+            <img id="bg" src={BG} />
           </li>
           <li>
             <img
