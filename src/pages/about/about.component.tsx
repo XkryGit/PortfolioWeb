@@ -13,45 +13,52 @@ export const AboutComponent: React.FC = () => {
       <div id="about">
         <div>
           <h3>
-            Hello, my name is <b>Adolfo</b>, and I am looking to grow
-            permanently in the world of{" "}
-            <b>FrontEnd programming, Graphic Design and Illustration.</b> I am
-            natural and I live in Fuengirola, a small coastal city in the south
-            of Spain. I studied <b> Audiovisual Communication</b> at the
-            University of Malaga, and
+            Welcome to my Portfolio. I am <b>Adolfo</b> and I am looking to grow
+            and develop on a larger and more permanent scale in the world of
+            <b> FrontEnd programming, Graphic Design and Illustration</b>. I am
+            native to Spain and live in Fuengirola, a small coastal city in the
+            south. I studied <b>Audiovisual Communication</b> at the University
+            of Malaga, and
             <b> Visual Design and FrontEnd Programming</b> at two private
             schools in the city.
           </h3>
           <h3>
-            I am a <b>dynamic, self-taught</b> person who seeks to find new
-            personal and professional challenges in each project, seeking to
-            transmit my style taking care of every last detail. I am also
-            passionate about
-            <b> basketball and video games.</b>
+            I am a <b> dynamic, driven and focused self-taught person</b> who
+            seeks to find new personal and professional challenges in each
+            project that I undertake, seeking to incorporate my{" "}
+            <b>meticulous style </b>
+            in ensuring to consider every last detail along the way. I enjoy
+            developing my mind and focus through personal study, as well as{" "}
+            <b>video games</b>, where I can be creative, analytical, tactical
+            and forward thinking. Outside of this, I enjoy keeping active and am
+            inspired by the world around us, being outside in nature and playing
+            sport, such as <b>basketball</b>.
           </h3>
           <h3>
             I worked for two years in a technology company where I performed,
-            among other functions,
-            <b> application prototyping and UX/UI design</b>, in the following
-            years and a half I was studying and working as a{" "}
-            <b>FrontEnd designer</b>, and in the last year I have worked for a
-            company of video games as
-            <b>Front-end developer specializing in UX/UI</b>, generating
+            among other functions,{" "}
+            <b>application prototyping and UX/UI design</b>. In the years that
+            followed, I was studying and working as a <b>FrontEnd designer</b>,
+            and in the last year I have worked for a video games company as a{" "}
+            <b>Front-end developer, specialising in UX/UI</b>, generating
             platforms and management pages for the company's video game
             ecosystem.
           </h3>
           <h3>
-            I mainly work with technologies such as
-            <b> Next.js, React, TypeScript, SASS or Tailwind</b>, among others,
-            although I am used to working with{" "}
-            <b>Angular or Vanilla JavaScript.</b>
-            In the field of visual design, I work with the complete{" "}
-            <b>Adobe pack</b>, managing practically all the tools. I am also
-            familiar with working with <b>Agile Scrum</b> work methodologies.
+            The majority of my experience thus far has been with technologies
+            such as <b>Next.js, React, TypeScript, SASS or Tailwind</b>, among
+            others, although I am used to working with{" "}
+            <b>Angular or Vanilla JavaScript </b>
+            also. In the field of visual design, I have gained extensive
+            experience in working with all of the <b>Adobe programmes</b> and
+            tools to achieve excellent outcomes. I also have experience in
+            working with
+            <b> Agile Scrum</b> work methodologies.
           </h3>
           <h3>
-            You can read more about my experience, skills, education and much
-            more in the PDF attached bellow:
+            If you think that I might be a good fit for your upcoming projects,
+            you can read more about my <b>experience, skills, education</b>, etc
+            . in more detail in the PDF attached below:
           </h3>
 
           <button
@@ -61,7 +68,7 @@ export const AboutComponent: React.FC = () => {
               )
             }
           >
-            My resume
+            My Resume
           </button>
         </div>
         <div>

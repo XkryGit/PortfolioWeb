@@ -18,10 +18,10 @@ export const Sign: React.FC = () => {
       <div id="sign">
         <img id="logo" onClick={() => handleClick("/")} src={logo} />
         <h3>
-          “Choose a job you love, and you will never have to work a day in your
-          life”{" "}
+          “You might not think that programmers are artists, but programming is
+          an extremely creative profession. It's logic-based creativity.”{" "}
         </h3>
-        <h3 id="sign">Confucio.</h3>
+        <h3 id="sign">John Romero.</h3>
         <div id="links">
           <img
             onClick={() => handleClickExt("https://github.com/XkryGit")}

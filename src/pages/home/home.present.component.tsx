@@ -10,10 +10,16 @@ export const HomePresentComponent: React.FC = () => {
         <img id="sub" src={sub} />
         <h1 id="title">Hi, nice to meet you</h1>
         <h3>
-          Hello, my name is Adolfo and I am looking to grow in the world of
-          <b> Frontend development, Graphic Design</b> and <b>Illustration.</b>
+          Welcome to my portfolio. I am Adolfo and I am looking forward to
+          taking on new and exciting opportunities and projects that will
+          enhance my skills, and enable me to further develop in the world of
+          <b> Frontend Development, Graphic Design and Illustration. </b>
         </h3>
-        <h3>My abilities right now are the following:</h3>
+        <h3>
+          I am driven, meticulous and eager to learn and develop my
+          capabilities. However, for now, I would rate my abilities in the
+          development and graphic design worlds as follows:
+        </h3>
         <div id="habilidades">
           <img id="habilidadesgraficas" src={habilidadesgraficas} />
           <img id="habilidadesfondo" src={habilidadesfondo} />

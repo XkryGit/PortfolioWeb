@@ -13,14 +13,23 @@ export const ContactComponent: React.FC = () => {
       <div id="contactpage">
         <div>
           <h3>
-            I'm looking to grow and learn in the world of FrontEnd programming,
-            in order to be able, along with my visual design skills, to be able
-            to make great visual approaches to the projects.
+            I'm looking to grow and learn in the world of{" "}
+            <b>FrontEnd programming</b>, in order to be able to, along with my{" "}
+            <b>visual design skills</b>, make great visual approaches to the
+            projects that I undertake.
           </h3>
           <h3>
-            I'm interested in working together, especially ambitious or large
-            projects. However, if you have other request or question, don't
-            hesitate to question me as you prefer.
+            I am{" "}
+            <b>
+              excited and enthusiastic at the prospect of taking on ambitious
+              and larger scale projects
+            </b>{" "}
+            where I have the opportunity to demonstrate my skill sets, to
+            develop my abilities and to build strong working relationships where
+            we can achieve amazing things together. <b>Please do not hesitate to
+            contact me</b> if you have any enquiries, big or small, and I would be
+            happy to discuss your projects and goals with you, and share my
+            ideas and how I can assist.
           </h3>
           <div id="buttons">
             <button

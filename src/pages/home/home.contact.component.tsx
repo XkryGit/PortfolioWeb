@@ -9,11 +9,17 @@ export const HomeContactComponent: React.FC = () => {
     <>
       <div id="contact">
         <img id="sub" src={sub} />
-        <h1 id="title">Contact me</h1>
+        <h1 id="title">How to get in touch</h1>
         <h3>
-          I'm interested in working together, especially ambitious and larges
-          projects. However, if you have other request or question, don't
-          hesitate to question me as you prefer.
+          I am excited and enthusiastic at the prospect of taking on ambitious
+          and larger scale projects where I have the opportunity to demonstrate
+          my skill sets, to develop my abilities and to build strong working
+          relationships where we can achieve amazing things together.
+        </h3>{" "}
+        <h3>
+          Please do not hesitate to contact me if you have any enquiries, big or
+          small, and I would be happy to discuss your projects and goals with
+          you, and share my ideas and how I can assist.
         </h3>
         <div id="buttons">
           <button
