@@ -11,6 +11,7 @@ import adidas from "../../archives/pro7.png";
 import illustration from "../../archives/pro8.png";
 import BG from "../../archives/pro9.png";
 import BGM from "../../archives/pro10.png";
+import helloMagazine from "../../archives/prod11.png";
 import hover from "../../archives/hover.png";
 
 export const HomeProjectsComponent = () => {
@@ -28,7 +29,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/blinkgalaxy")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="blinkgalaxy"
+              data-testid="blinkgalaxy"
             />
             <img id="bg" src={BG} />
           </li>
@@ -38,7 +39,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/nescafe")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="nescafe"
+              data-testid="nescafe"
             />
             <img id="nescafe" src={nescafe} />
           </li>
@@ -48,7 +49,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/managmentpages")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="managmentpages"
+              data-testid="managmentpages"
             />
             <img id="nescafe" src={BGM} />
           </li>
@@ -58,7 +59,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/tourism")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="tourism"
+              data-testid="tourism"
             />
             <img id="tourism" src={tourism} />
           </li>
@@ -68,7 +69,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/catchup")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="catchup"
+              data-testid="catchup"
             />
             <img id="catchup" src={catchup} />
           </li>
@@ -78,7 +79,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/portfolio")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="portfolio"
+              data-testid="portfolio"
             />
             <img id="portfolio" src={portfolio} />
           </li>
@@ -88,9 +89,19 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/marketplace")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="marketplace"
+              data-testid="marketplace"
             />
             <img id="marketplace" src={marketplace} />
+          </li>
+          <li>
+            <img
+              id="hover"
+              onClick={() => handleClick("/projects/hellomagazine")}
+              src={hover}
+              style={{ cursor: "pointer" }}
+              data-testid="hellomagazine"
+            />
+            <img id="hellomagazine" src={helloMagazine} />
           </li>
           <li>
             <img
@@ -98,7 +109,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/hepico")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="hepico"
+              data-testid="hepico"
             />
             <img id="hepico" src={hepico} />
           </li>
@@ -108,7 +119,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/adidas")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="adidas"
+              data-testid="adidas"
             />
             <img id="adidas" src={adidas} />
           </li>
@@ -118,7 +129,7 @@ export const HomeProjectsComponent = () => {
               onClick={() => handleClick("/projects/illustration")}
               src={hover}
               style={{ cursor: "pointer" }}
-               data-testid="illustration"
+              data-testid="illustration"
             />
             <img id="illustration" src={illustration} />
           </li>

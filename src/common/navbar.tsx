@@ -12,26 +12,37 @@ export const Navbar: React.FC = () => {
     );
   }, []);
 
+  const [currentPath, setCurrentPath] = useState(window.location.hash);
 
-const [currentPath, setCurrentPath] = useState(window.location.hash);
-
-useEffect(() => {
-  setCurrentPath(window.location.hash);
-}, [window.location.hash]);
+  useEffect(() => {
+    setCurrentPath(window.location.hash);
+  }, [window.location.hash]);
 
   return (
     <>
       <div id="header">
         <img id="logo" onClick={() => handleClick("/")} src={logo} />
         <ul id="navbar">
-          <Link id={currentPath=== "#/" || currentPath===""? "click" : "" }  to={"/"}>
+          <Link
+            id={currentPath === "#/" || currentPath === "" ? "click" : ""}
+            to={"/"}
+          >
             Home
           </Link>
-          <Link id={currentPath=== "#/about"? "click" : "" } to={"/about"}>About</Link>
-          <Link id={currentPath=== "#/projects"? "click" : "" } to={"/projects"}>Projects</Link>
-          <Link id={currentPath=== "#/contact"? "click" : "" } to={"/contact"}>Contact</Link>
+          <Link id={currentPath === "#/about" ? "click" : ""} to={"/about"}>
+            About
+          </Link>
+          <Link
+            id={currentPath === "#/projects" ? "click" : ""}
+            to={"/projects"}
+          >
+            Projects
+          </Link>
+          <Link id={currentPath === "#/contact" ? "click" : ""} to={"/contact"}>
+            Contact
+          </Link>
         </ul>
-        <span id="codeBy">© Code by Adolfo Zambrana - 2024</span>
+        <span id="codeBy">© Code by Adolfo Zambrana - 2026</span>
       </div>
     </>
   );

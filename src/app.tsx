@@ -14,39 +14,49 @@ import { ProjectIllustration } from "./pages/projects/projectspages/Illustration
 import { ProjectTourism } from "./pages/projects/projectspages/Tourism/projects.tourism";
 import { ProjectPortfolio } from "./pages/projects/projectspages/Portfolio/projects.portfolio";
 import { ProjectManagmentWeb } from "./pages/projects/projectspages/ManagmentWeb/projects.managmentWeb";
+import { ProjectHelloMagazine } from "./pages/projects/projectspages/HelloMagazine/projects.hellomagazine";
 import { Navbar } from "./common/navbar";
 import { Sign } from "./common/sign";
 
 export const App = () => {
-  return (<>
-    
-    <Router>
-    <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/projects/catchup" element={<ProjectCatchup />} />
-        <Route path="/projects/adidas" element={<ProjectAdidas />} />
-        <Route path="/projects/hepico" element={<ProjectHepico />} />
-        <Route path="/projects/nescafe" element={<ProjectNescafe />} />
-        <Route path="/projects/blinkgalaxy" element={<ProjectBlinkGalaxy />} />
-        <Route
-          path="/projects/managmentweb"
-          element={<ProjectManagmentWeb />}
-        />
-        <Route path="/projects/marketplace" element={<ProjectMarketplace />} />
-        <Route path="/projects/tourism" element={<ProjectTourism />} />
-        <Route path="/projects/portfolio" element={<ProjectPortfolio />} />
-        <Route
-          path="/projects/illustration"
-          element={<ProjectIllustration />}
-        />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Sign />
-    </Router>
-    
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/catchup" element={<ProjectCatchup />} />
+          <Route path="/projects/adidas" element={<ProjectAdidas />} />
+          <Route path="/projects/hepico" element={<ProjectHepico />} />
+          <Route path="/projects/nescafe" element={<ProjectNescafe />} />
+          <Route
+            path="/projects/blinkgalaxy"
+            element={<ProjectBlinkGalaxy />}
+          />
+          <Route
+            path="/projects/managmentweb"
+            element={<ProjectManagmentWeb />}
+          />
+          <Route
+            path="/projects/marketplace"
+            element={<ProjectMarketplace />}
+          />
+          <Route
+            path="/projects/hellomagazine"
+            element={<ProjectHelloMagazine />}
+          />
+          <Route path="/projects/tourism" element={<ProjectTourism />} />
+          <Route path="/projects/portfolio" element={<ProjectPortfolio />} />
+          <Route
+            path="/projects/illustration"
+            element={<ProjectIllustration />}
+          />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Sign />
+      </Router>
     </>
   );
 };

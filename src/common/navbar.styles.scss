@@ -13,12 +13,9 @@ div#header {
   background-color: $back-color;
   z-index: 1;
   @media screen and (max-width: 850px) {
-    justify-content: space-around;
-    left: 0;
-    padding-left: 6vw;
-    padding-top: 6vw;
     background-color: transparent;
-    margin-left: -33px;
+    padding: 0px;
+    left: 0;
   }
 
   ul {
@@ -33,7 +30,7 @@ div#header {
       background-color: $PrimColor;
       opacity: 95%;
       position: absolute;
-      bottom: -85vh;
+      bottom: -95vh;
       border: solid 1.8px $back-color;
       border-radius: 6px;
     }

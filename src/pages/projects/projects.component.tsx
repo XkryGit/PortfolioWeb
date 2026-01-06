@@ -10,6 +10,7 @@ import tourism from "../../archives/prod7.png";
 import portfolio from "../../archives/prod8.png";
 import blinkGalaxy from "../../archives/prod9.png";
 import ORM from "../../archives/prod10.png";
+import helloMagazine from "../../archives/prod11.png";
 import catchuphover from "../../archives/hover1.png";
 import nescafehover from "../../archives/hover4.png";
 import markethover from "../../archives/hover5.png";
@@ -20,6 +21,7 @@ import illustrationhover from "../../archives/hover6.png";
 import tourismhover from "../../archives/hover7.png";
 import BGhover from "../../archives/hover9.png";
 import ORhover from "../../archives/hover10.png";
+import helloMagazineHover from "../../archives/hover11.png";
 
 export const ProjectsComponent: React.FC = () => {
   useEffect(() => {
@@ -76,7 +78,6 @@ export const ProjectsComponent: React.FC = () => {
               <img id="vert" src={tourism} />
             </div>
           </div>
-
           <div>
             <div>
               <img
@@ -109,7 +110,7 @@ export const ProjectsComponent: React.FC = () => {
                 style={{ cursor: "pointer" }}
                 alt="market"
               />
-              <img id="hori" src={market}  />
+              <img id="hori" src={market} />
             </div>
             <div>
               <img
@@ -132,7 +133,7 @@ export const ProjectsComponent: React.FC = () => {
                 style={{ cursor: "pointer" }}
                 alt="adidas"
               />
-              <img id="vert" src={adidas}  />
+              <img id="vert" src={adidas} />
             </div>
 
             <div>
@@ -143,7 +144,19 @@ export const ProjectsComponent: React.FC = () => {
                 style={{ cursor: "pointer" }}
                 alt="portfolio"
               />
-              <img id="hori" src={portfolio}  />
+              <img id="hori" src={portfolio} />
+            </div>
+          </div>
+          <div>
+            <div>
+              <img
+                id="hover"
+                onClick={() => handleClick("/projects/hellomagazine")}
+                src={helloMagazineHover}
+                style={{ cursor: "pointer" }}
+                alt="hellomagazine"
+              />
+              <img id="hellomagazine" src={helloMagazine} />
             </div>
           </div>
         </ul>

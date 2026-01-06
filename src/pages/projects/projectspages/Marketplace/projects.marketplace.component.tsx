@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import market1 from "../../../../archives/market1.png";
 import market2 from "../../../../archives/market2.png";
 import market3 from "../../../../archives/market3.png";
-import bannercatch from "../../../../archives/bannercatch.png";
+import bannerHello from "../../../../archives/bannerHello.png";
 
 export const ProjectMarketplaceComponent: React.FC = () => {
   useEffect(() => {
@@ -45,8 +45,8 @@ export const ProjectMarketplaceComponent: React.FC = () => {
         <div id="banner">
           <img
             id="banner"
-            onClick={() => handleClick("/projects/catchup")}
-            src={bannercatch}
+            onClick={() => handleClick("/projects/hellomagazine")}
+            src={bannerHello}
           />
         </div>
       </div>
