@@ -33,7 +33,7 @@ div#about {
   display: flex;
   align-items: flex-start;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   margin-left: 80px;
   font-family: "Roboto Mono", monospace;
 }
@@ -60,16 +60,18 @@ div#about div {
     margin-top: 7vh;
   }
 }
-div#about h3 {
+div#about p {
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 @media screen and (max-width: 1300px) {
-  div#about h3 {
+  div#about p {
     font-size: 1rem;
   }
 }
 @media screen and (max-width: 850px) {
-  div#about h3 {
+  div#about p {
     font-size: 0.8rem;
     width: 90%;
   }
@@ -1096,12 +1098,9 @@ div#header {
 }
 @media screen and (max-width: 850px) {
   div#header {
-    justify-content: space-around;
-    left: 0;
-    padding-left: 6vw;
-    padding-top: 6vw;
     background-color: transparent;
-    margin-left: -33px;
+    padding: 0px;
+    left: 0;
   }
 }
 div#header ul {
@@ -1119,7 +1118,7 @@ div#header ul {
     background-color: #33b0cc;
     opacity: 95%;
     position: absolute;
-    bottom: -85vh;
+    bottom: -95vh;
     border: solid 1.8px #f4f9f9;
     border-radius: 6px;
   }
